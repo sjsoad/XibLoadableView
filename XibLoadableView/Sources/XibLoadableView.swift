@@ -15,7 +15,7 @@ open class XibLoadableView: UIView {
         xibSetup()
     }
     
-    override public init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         xibSetup()
     }
